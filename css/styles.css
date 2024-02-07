@@ -251,6 +251,111 @@ footer .detail {
     font-weight: bold;
 }
 
+/* responsivo celulares */
+
+@media(max-width: 450px){
+    /* geral */
+    p, input, textarea {        
+        font-size: 1.2rem;
+    }
+
+    /* navbar */
+
+    header > h2 {
+        display: none;
+    }
+
+    header > ul {
+        margin-top: 1.1rem;
+    }
+
+    /* banner */
+    
+    #banner {
+        height: 40vh;
+        padding-top: 5vh;
+        padding-bottom: 10vh;
+    }
+
+    #banner-info {
+        width: 60%;
+    }
+
+    #banner-info > p {
+        margin: 0;
+        width: auto;
+    }
+
+    /* sobre */
+
+    #sobre {
+        padding: 2rem;
+        height: auto;
+        padding-bottom: 50px;
+    }
+
+    /* curriculo */
+
+    #curriculo {
+        margin-top: -35px;
+        width: 90%;
+    }
+
+    #curriculo > .container {
+        flex-direction: column;
+    }
+
+    .curriculo-container > h3, .curriculo-container > .subtitle {
+        font-size: 1.3rem;
+    }
+
+    .curriculo-container {
+        padding: 25px;
+    }
+
+    .central {
+        border-top: 2px solid #dddf;
+        border-bottom: 2px solid #dddf;
+    }
+
+    /* portfolio */
+
+    #portfolio > h2, #portfolio > p {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .portfolio-container {
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    .portfolio-box {
+        margin-bottom: 2rem;
+        flex: 1 1 300px;
+    }
+
+    /*footer*/
+
+    footer {
+        padding: 50px 15px;
+    }
+
+    footer > form {
+        width: 100%;
+    }
+
+    footer > p {
+        line-height: 25px;
+    }
+
+    .detail {
+        margin-top: 10px;
+        display: block;
+    }
+}
+
 /* SCSS Gradient
  * $gradient-top: linear-gradient(0deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
  * $gradient-right: linear-gradient(90deg, #264653ff, #2a9d8fff, #e9c46aff, #f4a261ff, #e76f51ff);
