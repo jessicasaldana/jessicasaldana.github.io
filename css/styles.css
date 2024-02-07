@@ -13,15 +13,20 @@ h1{
      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
  }
 
- h2 {
+h2 {
     font-size: 30px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 15px;
 }
 
  /*navbar*/
 
 header {
     background-color: #264653ff;
-    color: #fff;
+    color: #ffff;
     padding: 0 15px;
     height: 60px;
 }
@@ -50,7 +55,7 @@ header > nav > ul > li {
 }
 
 header > nav > ul > li > a {
-    color: #fff;
+    color: #ffff;
 }
 
 header > nav > ul > li > a:hover {
@@ -70,7 +75,7 @@ header > nav > ul > li > a:hover {
     width: 40%;
     margin: 0 auto;
     text-align: center;
-    color: #fff;
+    color: #ffff;
     padding: 50px;
 }
 
@@ -98,15 +103,120 @@ header > nav > ul > li > a:hover {
     height: 350px;
 }
 
-#sobre h2 {
+#sobre > h2 {
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-#sobre p {
+#sobre > p {
     max-width: 650px;
     margin: 0 auto;
     line-height: 25px;
+}
+
+/*curriculo*/
+
+#curriculo {
+    margin-top: -100px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #ffff;
+    width: 80%;
+    border: 1px solid #dddf;
+    border-radius: 10px;
+}
+
+#curriculo > .container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.curriculo-container {
+    flex: 2 2 auto;
+    text-align: center;
+    padding: 60px 25px;
+}
+
+.central {
+    border-right: 1px solid #dddf;
+    border-left: 1px solid #dddf;
+}
+
+.curriculo-container > h3 {
+    color: #e76f51ff;
+    font-weight: bold;
+}
+
+.curriculo-container > img {
+    height: 30%;
+    padding: 15px;
+    margin-bottom: 25px;
+}
+
+.curriculo-container > .subtitle {
+    font-weight: bold;
+    color: #2a9d8fff;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.curriculo-container > p {
+    line-height: 25px;
+}
+
+/* portfolio */
+
+#portfolio {
+    text-align: center;
+    padding-top: 50px;
+
+}
+
+#portfolio > h2 {
+    color: #264653ff;
+    margin-bottom: 30px;
+}
+
+#portfolio > p {
+    margin-bottom: 50px;
+}
+
+#portfolio > p > a {
+    font-weight: bold;
+    color: #f4a261ff;
+}
+
+.portfolio-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 1200px;
+    margin-right: auto;
+    margin-bottom: 50px;
+    margin-left: auto;
+}
+
+.portfolio-box {
+    flex: 2 2 200px;
+    margin-right: 25px;
+    margin-left: 25px;
+    height: 300px;
+    background-size: cover;
+    border-right: 2px solid #264653ff;
+    border-bottom: 2px solid #264653ff;
+}
+
+.projeto1 {
+    background-image: url('../img/proj1.jpg');
+} 
+
+.projeto2 {
+    background-image: url('../img/proj2.jpg');
+}
+
+.projeto3 {
+    background-image: url('../img/proj3.jpg');
 }
 
 /* SCSS Gradient
