@@ -4,68 +4,104 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Jessica Saldaña - Currículo</title>
+  <link rel="stylesheet" href="css/reset.css">
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
+<!-- cabeçalho -->
   <header>
-    <h1>Jessica Saldaña</h1>
-    <p>Currículo Profissional</p>
+    <img src="img/grin-smile.png" alt="Avatar Bitmoji sorrindo">
+    <h2>Jessica Saldaña</h2>
+    <nav>
+      <ul>
+        <li><a href="#sobre">Sobre</a></li>
+        <li><a href="#experiencia">Experiência</a></li>
+        <li><a href="#educacao">Educação</a></li>
+        <li><a href="#habilidades">Habilidades</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
   </header>
+<!-- fim cabeçalho-->
+  <main>
+<!-- banner inicial -->
+    <div>
+      <div id="banner-info">
+        <h1>Jessica Saldaña</h1>
+        <img src="img/grin-smile.png" alt="Avatar Bitmoji sorrindo">
+        <p>Cientista da Computação</p>
+      </div>
+    </div>
+<!-- fim banner inicial -->
 
-  <nav>
-    <ul>
-      <li><a href="#sobre">Sobre</a></li>
-      <li><a href="#experiencia">Experiência</a></li>
-      <li><a href="#educacao">Educação</a></li>
-      <li><a href="#habilidades">Habilidades</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>
-  </nav>
+<!-- secao sobre -->
+    <section id="sobre">
+      <h2>Sobre Mim</h2>
+      <p>Uma breve descrição sobre você e suas aspirações profissionais.</p>
+    </section>
+<!-- fim secao sobre -->
 
-  <section id="sobre">
-    <h2>Sobre Mim</h2>
-    <p>Uma breve descrição sobre você e suas aspirações profissionais.</p>
-  </section>
-
-  <section id="experiencia">
-    <h2>Experiência Profissional</h2>
-    <ul>
-      <li>
-        <h3>Nome da Empresa</h3>
-        <p>Cargo - Data de Início a Data de Término</p>
-        <p>Descrição das responsabilidades e conquistas.</p>
-      </li>
-      <!-- Adicione mais itens conforme necessário -->
-    </ul>
-  </section>
-
-  <section id="educacao">
-    <h2>Educação</h2>
-    <ul>
-      <li>
-        <h3>Nome da Instituição</h3>
-        <p>Curso - Ano de Conclusão</p>
-      </li>
-      <!-- Adicione mais itens conforme necessário -->
-    </ul>
-  </section>
-
-  <section id="habilidades">
-    <h2>Habilidades</h2>
-    <ul>
-      <li>Habilidade 1</li>
-      <li>Habilidade 2</li>
-      <li>Habilidade 3</li>
-      <!-- Adicione mais habilidades conforme necessário -->
-    </ul>
-  </section>
-
-  <section id="contato">
-    <h2>Contato</h2>
-    <p>Email: jessicarsaldana@hotmail.com</p>
-    <p>Telefone: (00) 123-4567</p>
-    <!-- Adicione mais detalhes de contato, como redes sociais, se desejar -->
-  </section>
+<!-- secao habilidades -->
+    <section id="curriculo">
+      <div class="container">
+        <div class="experiencia-container">
+          <img src="img/laptop-wave.png" alt="Avatar Bitmoji acenando de dentro de um notebook">
+          <h3>Experiência</h3>
+          <p>Um pouco da minha jornada</p>
+          <p class="subtitle">Compass.uol</p>
+          <p>Bolsista - dez/2022 a mai/2023</p>
+          <p class="subtitle">Mais experiencias</p>
+          <p><a href="https://www.linkedin.com/in/jessicamarinasaldana/" target="_blank">LinkedIn</a></p>
+        </div>
+        <div class="habilidades-container">
+          <img src="img/check-box.png" alt="Avatar Bitmoji sentado em uma caixa de checklist segurando um caderno e um lapis. No chão varios cadernos e papeis.">
+          <h3>Developer</h3>
+          <p>Full Stack Developer</p>
+          <p class="subtitle">Linguagens que utilizo:</p>
+          <p>HTML, CSS, JS, C#, Python e SQL</p>
+          <p class="subtitle">Projetos que posso desenvolver:</p>
+          <p>Sites de média complexidade</p>
+        </div>
+        <div class="formacao-container">
+          <img src="img/laptop-reading.png" alt="Avatar Bitmoji lendo um livro e sorrindo de dentro de um notebook">
+          <h3>Formação e Certificados</h3>
+          <p>Formação acadêmica</p>
+          <p class="subtitle">Ciência da Computação</p>
+          <p>Faculdade de Petrolina (FACAPE) - 2024</p>
+          <p class="subtitle">Git e Github</p>
+          <p>Jan/23 - 8.5 horas</p>
+        </div>
+      </div>
+    </section>
+<!-- fim secao habilidades -->
+<!-- protifolio -->
+    <section id="portifolio">
+      <h2>Veja meus últimos trabalhos:</h2>
+      <p>Aqui estão os meus trabalhos mais recentes, para ver todos <a href="#" target="_blank">clique aqui.</a></p>
+      <div class="portifolio-container">
+        <div class="portifolio-box projeto1"></div>
+        <div class="portifolio-box projeto2"></div>
+        <div class="portifolio-box projeto3"></div>
+      </div>
+      <div class="portifolio-container">
+        <div class="portifolio-box projeto2"></div>
+        <div class="portifolio-box projeto3"></div>
+        <div class="portifolio-box projeto1"></div>
+      </div>
+    </section>
+<!-- fim protifolio -->
+    <section id="contato">
+      <h2>Contato</h2>
+      <p>Vamos conversar</p>
+      <img src="img/grin-smile.png" alt="Avatar Bitmoji sorrindo">
+      <form action="" method="">
+        <input type="text" name="name" placeholder="Seu nome">
+        <input type="email" name="email" placeholder="Seu e-mail">
+        <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+        <input type="submit" name="submit">
+      </form>
+    </section>
+  </main>
 
   <footer>
     <p>&copy; 2023 Jessica Marina Ramos Saldaña. Todos os direitos reservados.</p>
